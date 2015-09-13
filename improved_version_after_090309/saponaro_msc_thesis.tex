@@ -1,0 +1,158 @@
+%!TEX encoding = UTF-8 
+
+%\documentclass{book}
+\documentclass[a4paper,titlepage]{book} 
+
+\usepackage[italian,portuguese,english]{babel}
+% or just declare english, then use \begin{otherlanguage*}{italian}text\end{otherlanguage*}
+%\usepackage[english]{babel}		%	different languages (last one is the main one)
+							
+\usepackage[utf8]{inputenc}		%	type accented characters in source
+%\usepackage[smaller]{acronym}			%	acronyms
+\usepackage{acronym}			%	acronyms
+\usepackage{algorithm}			%	float wrapper for algorithms - load before hyperref
+\usepackage{algorithmic}			%	describe algorithms - load after hyperref?
+\usepackage{graphicx}			%	images
+\usepackage{amsmath}			%	mathematics
+\usepackage{booktabs}			%	tables
+\usepackage{fancyhdr}			%	to use \abstract with book documentclass
+\newcommand{\fncyblank}{\fancyhf{}}
+\newenvironment{abstract}%
+{\clearpage\fncyblank\null\vfill\begin{center}% % not \cleardoublepage
+\bfseries\abstractname\end{center}}%
+{\vfill\null}
+\usepackage{frontespizio}		%	Italian thesis frontispiece
+\usepackage{leftidx}				%	left indexes
+%\usepackage{listings}			%	code listings
+\usepackage{makeidx}			%	enable index
+%\usepackage{microtype}		%	improves filling of rows
+\usepackage{pdfpages}			%	insert PDFs
+\usepackage[resetlabels]{multibib}	%	multiple bibliographies
+\newcites{web}{Online references}	%	create "webography"
+\usepackage{subfig}				%	align figures and tables
+%\usepackage{wrapfig}			%	wrap text around an image
+\usepackage{hyperref}			%	\href{url}{text} hyperlinks in cross-refs
+\hypersetup{%
+	pdfauthor=Giovanni Saponaro,
+	pdftitle=Object Manipulation from Simplified Visual Cues,
+	pdfsubject=MSc Thesis,
+	%colorlinks,%
+	%citecolor=black,%
+	%filecolor=black,%
+	%linkcolor=black,%
+	%urlcolor=black,%
+	%plainpages,
+	%plainpages=false,
+	%pdfpagelabels
+}
+
+% make \marginpar size smaller than the default
+\setlength{\marginparwidth}{1.2in}
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]%
+{\raggedright\footnotesize #1}}
+
+\newcommand{\degree}{\ensuremath{^\circ}}
+% centred horizontal line to be used before the first \midrule in tables
+\newcommand{\otoprule}{\midrule[\heavyrulewidth]}
+\newcommand{\theHalgorithm}{\arabic{algorithm}} % fixes algorithms-hyperref conflict
+
+\newenvironment{eqsystem}% 
+{\left\lbrace\begin{array}{@{}l@{}}}% 
+{\end{array}\right.}
+
+\makeindex
+
+%%%%%%%%%
+\begin{document}
+%%%%%%%%%
+
+\begin{frontespizio}
+%\Universita[Sapienza]{Roma} % no: aggiunge la scritta "Universitˆ degli studi di"
+\Istituzione{Sapienza -- Universit\`a di Roma} % OK: non aggiunge scritte prima
+\Logo{figures/ML_tratto_rosso}
+\Facolta{Ingegneria} 
+\Corso[Laurea Specialistica]{Ingegneria Informatica} 
+\Annoaccademico{2007--2008} 
+\Titoletto{Tesi di Laurea Specialistica} 
+\Titolo{Object Manipulation from Simplified Visual Cues} 
+%\Sottotitolo{} 
+\Candidato{Giovanni Saponaro} 
+\Relatore{Prof. Daniele Nardi} 
+\Correlatore{Prof. Alexandre Bernardino} 
+\end{frontespizio}
+
+%%%%%%
+\frontmatter
+%%%%%%
+
+% 1. frontispiece (OK, already taken care of by frontespizio class)
+
+% 2. dedication (dedica)
+
+% 3. abstract (sommario)
+\include{abstracts}
+
+% 4. acknowledgements
+\include{acknowledgements}
+
+% 5. table of contents (indice) and other lists
+\tableofcontents
+\listoffigures
+\listoftables
+\listofalgorithms % ?
+
+% 6. list of acronyms, abbreviations and notation
+\include{acronyms}
+
+
+%%%%%%
+\mainmatter
+%%%%%%
+
+% 7. introduction (prefazione) with many sections => mainmatter
+\include{intro}
+
+\include{related_work}
+
+%%%%%%%%
+% my approach
+%%%%%%%%
+
+\include{robot_platform}
+\include{proposed_architecture}
+\include{experimental_results}
+\include{conclusions}
+
+%%%%%%%
+% appendixes
+%%%%%%%
+\appendix
+
+\include{appendixes/clawar_2008_article} % or simply addtotoc
+\includepdf[pages=-]{appendixes/saponaro-bernardino-clawar2008.pdf}
+\include{appendixes/trigonometry}
+%\include{appendixes/ini_scripts}
+
+%%%%%%
+\backmatter
+%%%%%%
+
+% add "Bibliography" to table of contents
+\cleardoublepage 
+\addcontentsline{toc}{chapter}{\bibname}
+\nocite{*}
+\bibliographystyle{alpha}
+\bibliography{biblio}
+
+% same for Online references (aka "webography")
+\cleardoublepage 
+\addcontentsline{toc}{chapter}{Online References}
+\nociteweb{*}
+\bibliographystyleweb{alpha}
+\bibliographyweb{webo}
+
+% index (indice analitico)
+\printindex
+
+\end{document}

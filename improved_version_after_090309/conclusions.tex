@@ -1,0 +1,29 @@
+%!TEX encoding = UTF-8 
+
+\chapter{Conclusions and Future Work}
+\label{chap:conclusions}
+
+\section{Conclusions}
+
+This thesis presented an approach to perform manipulation tasks with a robot by the means of stereopsis clues and certain desired characteristics: using simple, generic features (best-fit ellipses) so that we can handle many different object that the robot has not dealt with before, and managing real-time performance.
+
+We have addressed the problem of reaching for an object and preparing the grasping action, according to the \emph{orientation} of the objects that a humanoid robot needs to interact with. The proposed technique is not intended to have very accurate measurements of object and hand postures, but merely the necessary quality to allow for successful object--hand interactions and learning with \emph{affordances} (Section~\ref{sec:affordances}). Precise manipulation needs to emerge from experience by optimizing action parameters as a function of the observed effects.
+
+To have a simple model of object and hand shapes, we have approximated them as 2D ellipses located in a 3D space. An assumption is that objects have a sufficiently \emph{distinct colour}, in order to facilitate segmentation\index{image segmentation} from the image background. Perception of object orientation in 3D is provided by the second-order moments of the segmented areas in left and right images, acquired by a humanoid robot active vision head.
+
+As far as innovations are concerned, the Versatile 3D Vision system ``VVV'' (Tomita \emph{et al.}, \cite{tomita:1998}) presents some analogies with our approach, in fact it can construct the 3D geometric data of any scene when two or more images are given, by using structural analysis and partial pattern matching. However, it works under the strong assumption that the geometric CAD models of objects are known beforehand in a database. This is a relevant difference from our proposed approach, which, instead, is model-free.
+
+The Edsinger Domo (p.~\pageref{chap:related_work}) is also similar to our proposed approach, in the sense that it emphasizes the importance for a robot to constantly perceive\index{perception} its environment, rather than relying on internal models. While the Edsinger Domo focuses on sparse perceptual features to capture just those aspects of the world that are relevant to a given task, we focus specifically on simplified object features: best-fit enclosing ellipses of objects and their estimated orientation in 3D.
+
+% Avete raggiunto gli obiettivi?
+%Quali conoscenze avete guadagnato (rispettivamente al problema affrontato)?
+%Cosa suggeriscono i dati e i risultati raccolti?
+%Avendo a disposizione le esperienze guadagnate, cosa e come affrontereste in maniera differente dovendo riniziare daccapo?
+
+\section{Future Work}
+
+With regards to visual processing and tracking, the combined \ac{CAMSHIFT} and 3D reconstruction approach can potentially be made more stable by using not just two, but more points to characterize each object (for example, by taking into account the minor axis of every ellipse in addition to its major one). However, this modification could increase computational cost and its viability needs to be verified.
+
+As for manipulation, future work intends more thorough testing of the two phases (reaching preparation and grasping preparation), in particular of the latter.
+
+Another improvement will be the combination of this work with the object affordances framework, thus adding a learning layer to the approach (for example by iterating many grasping experiments and assigning points to successful tests).

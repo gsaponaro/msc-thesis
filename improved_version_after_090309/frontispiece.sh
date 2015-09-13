@@ -1,0 +1,3 @@
+pdflatex saponaro_msc_thesis
+pdflatex saponaro_msc_thesis-frn
+pdflatex saponaro_msc_thesis

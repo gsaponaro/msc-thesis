@@ -1,0 +1,71 @@
+%!TEX encoding = UTF-8 
+
+\chapter{Trigonometric Identities}
+
+Formulas for rotation about the principal axes by $\theta$:
+
+\begin{equation}
+{\mathbf{R}}_X(\theta) =
+\begin{bmatrix}
+1	&	0			& 	0\\
+0	&	\cos\theta		&	-\sin\theta\\
+0	&	\sin\theta		&	\cos\theta
+\end{bmatrix},
+\end{equation}
+
+\begin{equation}
+{\mathbf{R}}_Y(\theta) =
+\begin{bmatrix}
+\cos\theta		&	0	&	\sin\theta\\
+0			&	1	&	0\\
+-\sin\theta		&	0	&	\cos\theta
+\end{bmatrix},
+\end{equation}
+
+\begin{equation}
+{\mathbf{R}}_Z(\theta) =
+\begin{bmatrix}
+\cos\theta		&	-\sin\theta		&	0\\
+\sin\theta		&	\cos\theta		&	0\\
+0			&	0			&	1
+\end{bmatrix}.
+\end{equation}
+
+Identities having to do with the periodic nature of sine and cosine:
+
+\begin{gather}
+\sin\theta = -\sin(-\theta) = -\cos(\theta + 90\degree) = \cos(\theta - 90\degree),\\
+\cos\theta = \cos(-\theta) = \sin(\theta + 90\degree) = -\sin(\theta - 90\degree).
+\end{gather}
+
+The sine and cosine for the sum or difference of angles $\theta_1$ and $\theta_2$, using the notation of~\cite{craig}:
+
+\begin{gather}
+\cos(\theta_1 + \theta_2) = c_{12} = c_1 c_2 - s_1 s_2,\\
+\sin(\theta_1 + \theta_2) = s_{12} = c_1 s_2 + s_1 c_2,\\
+\cos(\theta_1 - \theta_2) = c_1 c_2 + s_1 s_2,\\
+\sin(\theta_1 - \theta_2) = s_1 c_2 - c_1 s_2.
+\end{gather}
+
+The sum of the squares of the sine and cosine of the same angle is unity:
+
+\begin{equation}
+c^2(\theta) + s^2(\theta) = 1.
+\end{equation}
+
+If a triangle's angles are labeled $a, b$ and $c$, where angle $a$ is opposed side $A$, and so on, then the \emph{law of cosines} is
+\begin{equation}
+A^2 = B^2 + C^2 - 2BC \cos a.
+\end{equation}
+
+The \emph{tangent of the half angle} substitution:
+\begin{gather}
+u = \tan \frac{\theta}{2},\\
+\cos\theta = \frac{1 - u^2}{1 + u^2},\\
+\sin\theta = \frac{2u}{1 + u^2}.
+\end{gather}
+
+To rotate a vector $\mathbf{Q}$ about a unit vector $\hat{\mathbf{K}}$ by $\theta$, we use \emph{Rodrigues's formula} which yields the rotated ${\mathbf{Q}}'$:
+\begin{equation}
+{\mathbf{Q}}' = \mathbf{Q}\cos\theta + \sin\theta (\hat{\mathbf{K}} \times \mathbf{Q}) + (1 - \cos\theta) (\hat{\mathbf{K}} \cdot \hat{\mathbf{Q}}) \hat{\mathbf{K}}.
+\end{equation}

@@ -1,0 +1,4 @@
+pdflatex saponaro_msc_thesis
+makeindex saponaro_msc_thesis
+pdflatex saponaro_msc_thesis
+pdflatex saponaro_msc_thesis
