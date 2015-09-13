@@ -1,0 +1,1 @@
+start "RPC_arm" cmd /c yarp rpc /baltaArm/rpc:i

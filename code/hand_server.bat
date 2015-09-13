@@ -1,0 +1,1 @@
+start "Hand" cmd /c  yarpdev --device jrkerr --file balta_hand.ini --name /BaltaHand --rate 40

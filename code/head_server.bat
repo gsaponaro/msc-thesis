@@ -1,0 +1,1 @@
+start "HEAD" cmd /c yarpdev --device controlboard --subdevice niflex --file c:/vislab/yarp2_conf/balta_head.ini --verbose --name /balta/head

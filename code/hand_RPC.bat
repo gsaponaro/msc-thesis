@@ -1,0 +1,1 @@
+start "RPC_hand" cmd /c yarp rpc /BaltaHand/rpc:i

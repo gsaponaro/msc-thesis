@@ -3,6 +3,7 @@
 
 .vcproj
 CMakeFiles
+.cmake
 
 # User-specific files
 *.suo

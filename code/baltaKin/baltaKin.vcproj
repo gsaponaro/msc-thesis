@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="baltaKin"
+	ProjectGUID="{80C01272-B2B3-4DBE-82A9-9A534D51533E}"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="baltaKin.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/Debug/baltaKin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\Debug\baltaKin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="baltaKin.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/Release/baltaKin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;Release\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\Release\baltaKin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="baltaKin.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/MinSizeRel/baltaKin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\MinSizeRel\baltaKin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="baltaKin.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/RelWithDebInfo/baltaKin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\ACE-5.6\ACE_wrappers;C:\yarp2\src\libYARP_OS\include;C:\yarp2\src\libYARP_sig\include;C:\yarp2\src\libYARP_math\include;c:\gsl;C:\yarp2\src\libYARP_dev\include;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include&quot;;C:\ipopt-3.5.4-win32-yarp\build\include\coin;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_REENTRANT,WIN32,_WINDOWS,YARP_LITTLE_ENDIAN,YARP_INT32=int,YARP_INT16=short,YARP_FLOAT64=double,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\RelWithDebInfo\baltaKin.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; &quot;-BC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\yarp2\YARPConfig.cmake;C:\yarp2\conf\YarpDevice.cmake;C:\yarp2\yarpmodConfig.cmake;C:\yarp2\yarpmodDependencies.cmake;C:\iCub\ICUBConfig.cmake;C:\yarp2\conf\UsePkgConfig.cmake;C:\iCub\conf\FindIPOPT.cmake;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; &quot;-BC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\yarp2\YARPConfig.cmake;C:\yarp2\conf\YarpDevice.cmake;C:\yarp2\yarpmodConfig.cmake;C:\yarp2\yarpmodDependencies.cmake;C:\iCub\ICUBConfig.cmake;C:\yarp2\conf\UsePkgConfig.cmake;C:\iCub\conf\FindIPOPT.cmake;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; &quot;-BC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\yarp2\YARPConfig.cmake;C:\yarp2\conf\YarpDevice.cmake;C:\yarp2\yarpmodConfig.cmake;C:\yarp2\yarpmodDependencies.cmake;C:\iCub\ICUBConfig.cmake;C:\yarp2\conf\UsePkgConfig.cmake;C:\iCub\conf\FindIPOPT.cmake;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; &quot;-BC:/Documents and Settings/Vislab/Desktop/gsaponaro/baltaKin&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\gcc.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\Platform\cl.cmake&quot;;&quot;C:\Program Files\CMake 2.6\share\cmake-2.6\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\yarp2\YARPConfig.cmake;C:\yarp2\conf\YarpDevice.cmake;C:\yarp2\yarpmodConfig.cmake;C:\yarp2\yarpmodDependencies.cmake;C:\iCub\ICUBConfig.cmake;C:\yarp2\conf\UsePkgConfig.cmake;C:\iCub\conf\FindIPOPT.cmake;&quot;C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\src\iKinFwd.cpp">
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\src\iKinInv.cpp">
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\src\iKinIpOpt.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include\iCub\iKinFwd.h">
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include\iCub\iKinInv.h">
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\Vislab\Desktop\gsaponaro\baltaKin\include\iCub\iKinIpOpt.h">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

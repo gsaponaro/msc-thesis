@@ -1,0 +1,1 @@
+start "Left Eye" cmd /c yarpdev --device grabber --subdevice dragonfly --width 640 --height 480 --d 0 --name /balta/LeftEye --flea --framerate 30 --gain 500 --shutter 500
