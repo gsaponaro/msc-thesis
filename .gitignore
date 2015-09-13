@@ -4,6 +4,9 @@
 # Mac temp files
 .DS_Store
 
+# SVN files
+.svn
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
